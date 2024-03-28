@@ -40,7 +40,6 @@ void swap(int x, int y)
         arr[y] = temp;
         mov_count++;
 
-
     }
 
 
@@ -104,7 +103,7 @@ void display() {
         cout << arr[i] << " ";
     }
 
-    cout << "\n\nNumber of comparasions: " << cmp_count << endl;
+    cout << "\n\nNumber of comparation: " << cmp_count << endl;
     cout << "Number of data movements: " << mov_count << endl;
 }
 
